@@ -8,7 +8,7 @@ const NavBar =() =>{
         <>
         <div className={styles.navbar}>
         <div className={ styles.container}>
-        <div><Image src={logo} width={48} height={48}/></div>
+        <div><Image src={logo} width={48} height={48} alt="Logo"/></div>
         <ul className={styles.navitems}>
         <li>Product</li>
         <li>Solution</li>
